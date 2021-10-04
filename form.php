@@ -1,7 +1,7 @@
 <form action="thanks.php" method="post">
     <div>
         <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="user_name">
+        <input type="text" id="nom" name="user_lastname">
     </div>
     <div>
         <label for="prenom">Prénom :</label>
@@ -17,7 +17,8 @@
     </div>
     <div>
         <label for="sujet">Choix :</label>
-        <select id="sujet" name="user_select">
+        <select id="sujet" name="user_sujet">
+            <option>Votre choix :</option>
             <option>Vacances au soleil</option>
             <option>Vacances à la neige</option>
             <option>Vacances dans les îles</option>
